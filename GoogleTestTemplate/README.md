@@ -1,11 +1,9 @@
 # Setting Up Google Test
-How to get Google Test up and running.
+How to get Google Test up and running. Requires cmake which can be installed with `sudo apt-get install cmake`.
 
 ## Either install packages and compile...
 ```
 sudo apt-get install libgtest-dev
-# install cmake
-sudo apt-get install cmake 
 cd /usr/src/gtest
 mkdir build && cd build
 sudo cmake ..
